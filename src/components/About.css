@@ -81,23 +81,19 @@
   align-items: center;
 }
 
-.image-placeholder {
+.profile-image {
   width: 100%;
   max-width: 350px;
-  aspect-ratio: 1;
-  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: 0 20px 60px rgba(14, 165, 233, 0.3);
+  transition: transform 0.3s ease;
 }
 
-.image-placeholder svg {
-  width: 50%;
-  height: 50%;
-  color: white;
-  opacity: 0.8;
+.profile-image:hover {
+  transform: scale(1.02);
 }
 
 @media (max-width: 968px) {
