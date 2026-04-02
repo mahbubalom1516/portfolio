@@ -39,7 +39,7 @@ function Contact() {
               </div>
               <div className="info-text">
                 <h3>Email</h3>
-                <p>your.email@example.com</p>
+                <p>mahbub.alom@example.com</p>
               </div>
             </div>
             <div className="info-item">
@@ -51,7 +51,7 @@ function Contact() {
               </div>
               <div className="info-text">
                 <h3>Location</h3>
-                <p>Your City, Country</p>
+                <p>Dhaka, Bangladesh</p>
               </div>
             </div>
             <div className="info-item">

@@ -16,7 +16,7 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <span className="logo-text">Portfolio</span>
+          <span className="logo-text">Md. Mahbub Alom</span>
         </div>
 
         <button

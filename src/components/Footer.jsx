@@ -33,7 +33,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+          <p>&copy; {currentYear} Md. Mahbub Alom. All rights reserved.</p>
         </div>
       </div>
     </footer>
