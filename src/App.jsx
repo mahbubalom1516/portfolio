@@ -1,3 +1,4 @@
+import { ThemeProvider } from './context/ThemeContext'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -9,17 +10,19 @@ import './App.css'
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="app">
+        <Header />
+        <main>
+          <Hero />
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   )
 }
 

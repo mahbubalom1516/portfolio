@@ -5,9 +5,13 @@
   right: 0;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--shadow);
   z-index: 1000;
   transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .header {
+  background: rgba(15, 23, 42, 0.95);
 }
 
 .header-container {
@@ -22,8 +26,9 @@
 .logo-text {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1a1a1a;
+  color: var(--text-primary);
   letter-spacing: -0.5px;
+  transition: color 0.3s ease;
 }
 
 .nav {
@@ -35,7 +40,7 @@
 .nav-link {
   background: none;
   border: none;
-  color: #4a4a4a;
+  color: var(--text-secondary);
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
@@ -51,16 +56,43 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #0ea5e9;
+  background: var(--accent-color);
   transition: width 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #0ea5e9;
+  color: var(--accent-color);
 }
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+  padding: 0;
+  margin-left: 0.5rem;
+}
+
+.theme-toggle:hover {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
 }
 
 .menu-toggle {
@@ -76,7 +108,7 @@
 .menu-toggle span {
   width: 25px;
   height: 3px;
-  background: #1a1a1a;
+  background: var(--text-primary);
   transition: all 0.3s ease;
   border-radius: 2px;
 }
@@ -91,7 +123,7 @@
     top: 70px;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.98);
+    background: var(--bg-primary);
     flex-direction: column;
     padding: 2rem;
     gap: 1.5rem;
@@ -100,6 +132,7 @@
     visibility: hidden;
     transition: all 0.3s ease;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--border-color);
   }
 
   .nav.open {
@@ -118,31 +151,5 @@
 
   .menu-toggle.open span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -7px);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .header {
-    background: rgba(26, 26, 26, 0.95);
-  }
-
-  .logo-text {
-    color: #ffffff;
-  }
-
-  .nav-link {
-    color: #b0b0b0;
-  }
-
-  .nav-link:hover {
-    color: #0ea5e9;
-  }
-
-  .menu-toggle span {
-    background: #ffffff;
-  }
-
-  .nav {
-    background: rgba(26, 26, 26, 0.98);
   }
 }
