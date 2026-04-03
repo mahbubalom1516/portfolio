@@ -30,9 +30,7 @@ function Hero() {
           </div>
         </div>
         <div className="hero-visual">
-          <div className="hero-shape shape-1"></div>
-          <div className="hero-shape shape-2"></div>
-          <div className="hero-shape shape-3"></div>
+          <img src="https://ibb.co.com/6JNdmZSs" alt="Profile" className="hero-image" />
         </div>
       </div>
     </section>
