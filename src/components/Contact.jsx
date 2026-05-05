@@ -39,7 +39,7 @@ function Contact() {
               </div>
               <div className="info-text">
                 <h3>Email</h3>
-                <p>mahbub.alom@example.com</p>
+                <a href='mailto:mahbubalomuiux16@gmail.com'>mahbubalomuiux16@gmail.com</a>
               </div>
             </div>
             <div className="info-item">
@@ -63,9 +63,9 @@ function Contact() {
               <div className="info-text">
                 <h3>Social</h3>
                 <div className="social-links">
-                  <a href="#" className="social-link">LinkedIn</a>
-                  <a href="#" className="social-link">Dribbble</a>
-                  <a href="#" className="social-link">Behance</a>
+                  <a href="https://www.linkedin.com/in/md-mahbub-alom-9548553bb" target='_blank' className="social-link">LinkedIn</a>
+                  <a href="https://dribbble.com/mahbubalomuiux16/" target='_blank' className="social-link">Dribbble</a>
+                  <a href="https://www.behance.net/mdmahbubalom9" target='_blank' className="social-link">Behance</a>
                 </div>
               </div>
             </div>

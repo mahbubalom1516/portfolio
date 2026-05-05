@@ -11,8 +11,7 @@ function Hero() {
             <span className="hero-role">UI/UX Designer</span>
           </h1>
           <p className="hero-description">
-            Creating beautiful, intuitive, and user-centered digital experiences
-            that solve real problems and delight users.
+            Designing digital products that are simple, smart, and user-focused.
           </p>
           <div className="hero-buttons">
             <button
@@ -30,7 +29,7 @@ function Hero() {
           </div>
         </div>
         <div className="hero-visual">
-          <img src="https://ibb.co.com/6JNdmZSs" alt="Profile" className="hero-image" />
+          <img src="../../public/profile.png" alt="Profile" className="hero-image" />
         </div>
       </div>
     </section>

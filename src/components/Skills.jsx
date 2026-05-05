@@ -13,10 +13,6 @@ function Skills() {
     {
       title: 'UI Skills',
       skills: ['Visual Design', 'Design Systems', 'Typography', 'Color Theory', 'Iconography', 'Responsive Design']
-    },
-    {
-      title: 'Additional',
-      skills: ['HTML/CSS', 'JavaScript', 'Animation', 'Accessibility', 'Agile/Scrum', 'Design Thinking']
     }
   ];
 

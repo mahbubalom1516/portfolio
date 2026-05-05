@@ -25,10 +25,9 @@ function Footer() {
           <div className="footer-section">
             <h4 className="footer-heading">Connect</h4>
             <div className="footer-social">
-              <a href="#" className="footer-social-link">LinkedIn</a>
-              <a href="#" className="footer-social-link">Dribbble</a>
-              <a href="#" className="footer-social-link">Behance</a>
-              <a href="#" className="footer-social-link">Twitter</a>
+              <a href="https://www.linkedin.com/in/md-mahbub-alom-9548553bb" target="_blank" className="footer-social-link">LinkedIn</a>
+              <a href="https://dribbble.com/mahbubalomuiux16/" target="_blank" className="footer-social-link">Dribbble</a>
+              <a href="https://www.behance.net/mdmahbubalom9" target="_blank" className="footer-social-link">Behance</a>
             </div>
           </div>
         </div>

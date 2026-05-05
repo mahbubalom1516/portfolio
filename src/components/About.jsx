@@ -15,21 +15,21 @@ function About() {
             </p>
             <div className="about-stats">
               <div className="stat">
-                <h3 className="stat-number">5+</h3>
+                <h3 className="stat-number">2+</h3>
                 <p className="stat-label">Years Experience</p>
               </div>
               <div className="stat">
-                <h3 className="stat-number">50+</h3>
+                <h3 className="stat-number">30+</h3>
                 <p className="stat-label">Projects Completed</p>
               </div>
               <div className="stat">
-                <h3 className="stat-number">30+</h3>
+                <h3 className="stat-number">25+</h3>
                 <p className="stat-label">Happy Clients</p>
               </div>
             </div>
           </div>
           <div className="about-image">
-            <img src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Profile" className="profile-image" />
+            <img src="../../public/about-me.jpg" alt="Profile" className="profile-image" />
           </div>
         </div>
       </div>
