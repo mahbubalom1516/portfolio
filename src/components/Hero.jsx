@@ -29,7 +29,7 @@ function Hero() {
           </div>
         </div>
         <div className="hero-visual">
-          <img src="../../public/profile.png" alt="Profile" className="hero-image" />
+          <img src="https://i.ibb.co.com/7BG7xJ1/profile.png" alt="Profile" className="hero-image" />
         </div>
       </div>
     </section>

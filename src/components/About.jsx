@@ -29,7 +29,7 @@ function About() {
             </div>
           </div>
           <div className="about-image">
-            <img src="../../public/about-me.jpg" alt="Profile" className="profile-image" />
+            <img src="https://i.ibb.co.com/pr3GRY34/about-me.jpg" alt="Profile" className="profile-image" />
           </div>
         </div>
       </div>
