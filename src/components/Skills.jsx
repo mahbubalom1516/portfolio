@@ -4,7 +4,7 @@ function Skills() {
   const skillCategories = [
     {
       title: 'Design Tools',
-      skills: ['Figma', 'Adobe XD', 'Sketch', 'Photoshop', 'Illustrator', 'InVision']
+      skills: ['Figma', 'Adobe XD', 'Sketch', 'Photoshop', 'Illustrator', 'Canva']
     },
     {
       title: 'UX Skills',
