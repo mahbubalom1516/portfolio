@@ -14,6 +14,13 @@ function Header() {
     }
   };
 
+  const downloadCV = () => {
+  window.open(
+    'https://drive.google.com/uc?export=download&id=1vTpLrosrLqruIovZmtRhKkzsn1LR8QV5',
+    '_blank'
+  );
+};
+  
   return (
     <header className="header">
       <div className="header-container">
@@ -37,6 +44,12 @@ function Header() {
           <button onClick={() => scrollToSection('projects')} className="nav-link">Projects</button>
           <button onClick={() => scrollToSection('skills')} className="nav-link">Skills</button>
           <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
+           <button
+    onClick={downloadCV}
+    className="cv-download-btn"
+  >
+    Download CV
+  </button>
           <button onClick={toggleTheme} className="theme-toggle" aria-label="Toggle theme">
             {isDark ? (
               <svg viewBox="0 0 24 24" fill="currentColor">
